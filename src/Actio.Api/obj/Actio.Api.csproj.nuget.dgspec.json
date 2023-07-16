@@ -1,0 +1,168 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\ham.heidari\\Downloads\\11_MicroService\\11_MicroService\\Actio\\src\\Actio.Api\\Actio.Api.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\ham.heidari\\Downloads\\11_MicroService\\11_MicroService\\Actio\\src\\Actio.Api\\Actio.Api.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\ham.heidari\\Downloads\\11_MicroService\\11_MicroService\\Actio\\src\\Actio.Api\\Actio.Api.csproj",
+        "projectName": "Actio.Api",
+        "projectPath": "C:\\Users\\ham.heidari\\Downloads\\11_MicroService\\11_MicroService\\Actio\\src\\Actio.Api\\Actio.Api.csproj",
+        "packagesPath": "C:\\Users\\ham.heidari\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ham.heidari\\Downloads\\11_MicroService\\11_MicroService\\Actio\\src\\Actio.Api\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\ham.heidari\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {},
+          "https://internalnexus.shahr-bank.ir:8981/repository/Nuget-Group/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.0": {
+            "targetAlias": "netcoreapp3.0",
+            "projectReferences": {
+              "C:\\Users\\ham.heidari\\Downloads\\11_MicroService\\11_MicroService\\Actio\\src\\Actio.Common\\Actio.Common.csproj": {
+                "projectPath": "C:\\Users\\ham.heidari\\Downloads\\11_MicroService\\11_MicroService\\Actio\\src\\Actio.Common\\Actio.Common.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.0": {
+          "targetAlias": "netcoreapp3.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[3.0.1, 3.0.1]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[3.0.3, 3.0.3]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[3.0.0, 3.0.0]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[3.0.0, 3.0.0]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\ham.heidari\\Downloads\\11_MicroService\\11_MicroService\\Actio\\src\\Actio.Common\\Actio.Common.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\ham.heidari\\Downloads\\11_MicroService\\11_MicroService\\Actio\\src\\Actio.Common\\Actio.Common.csproj",
+        "projectName": "Actio.Common",
+        "projectPath": "C:\\Users\\ham.heidari\\Downloads\\11_MicroService\\11_MicroService\\Actio\\src\\Actio.Common\\Actio.Common.csproj",
+        "packagesPath": "C:\\Users\\ham.heidari\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ham.heidari\\Downloads\\11_MicroService\\11_MicroService\\Actio\\src\\Actio.Common\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\ham.heidari\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {},
+          "https://internalnexus.shahr-bank.ir:8981/repository/Nuget-Group/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "targetAlias": "netstandard2.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "targetAlias": "netstandard2.0",
+          "dependencies": {
+            "Microsoft.AspNetCore": {
+              "target": "Package",
+              "version": "[2.0.0, )"
+            },
+            "Microsoft.AspNetCore.Hosting": {
+              "target": "Package",
+              "version": "[2.0.0, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            },
+            "RawRabbit": {
+              "target": "Package",
+              "version": "[2.0.0-beta8, )"
+            },
+            "RawRabbit.DependencyInjection.ServiceCollection": {
+              "target": "Package",
+              "version": "[2.0.0-beta8, )"
+            },
+            "RawRabbit.Operations.Publish": {
+              "target": "Package",
+              "version": "[2.0.0-beta8, )"
+            },
+            "RawRabbit.Operations.Subscribe": {
+              "target": "Package",
+              "version": "[2.0.0-beta8, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
