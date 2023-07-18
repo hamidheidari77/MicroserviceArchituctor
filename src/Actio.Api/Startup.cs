@@ -37,6 +37,7 @@ namespace Actio.Api
         {
             if (env.IsDevelopment())
             {
+
                 app.UseDeveloperExceptionPage();
             }
 
