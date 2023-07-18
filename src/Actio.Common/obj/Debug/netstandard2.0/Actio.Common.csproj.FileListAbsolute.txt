@@ -24,10 +24,13 @@ F:\MicroService\10_MicroService\Actio\src\Actio.Common\obj\Debug\netstandard2.0\
 F:\MicroService\10_MicroService\Actio\src\Actio.Common\obj\Debug\netstandard2.0\Actio.Common.AssemblyInfo.cs
 F:\MicroService\10_MicroService\Actio\src\Actio.Common\obj\Debug\netstandard2.0\Actio.Common.dll
 F:\MicroService\10_MicroService\Actio\src\Actio.Common\obj\Debug\netstandard2.0\Actio.Common.pdb
-C:\Users\ham.heidari\Downloads\11_MicroService\11_MicroService\Actio\src\Actio.Common\obj\Debug\netstandard2.0\Actio.Common.csproj.AssemblyReference.cache
 C:\Users\ham.heidari\Downloads\11_MicroService\11_MicroService\Actio\src\Actio.Common\obj\Debug\netstandard2.0\Actio.Common.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\ham.heidari\Downloads\11_MicroService\11_MicroService\Actio\src\Actio.Common\obj\Debug\netstandard2.0\Actio.Common.AssemblyInfoInputs.cache
 C:\Users\ham.heidari\Downloads\11_MicroService\11_MicroService\Actio\src\Actio.Common\obj\Debug\netstandard2.0\Actio.Common.AssemblyInfo.cs
 C:\Users\ham.heidari\Downloads\11_MicroService\11_MicroService\Actio\src\Actio.Common\obj\Debug\netstandard2.0\Actio.Common.csproj.CoreCompileInputs.cache
 C:\Users\ham.heidari\Downloads\11_MicroService\11_MicroService\Actio\src\Actio.Common\obj\Debug\netstandard2.0\Actio.Common.dll
 C:\Users\ham.heidari\Downloads\11_MicroService\11_MicroService\Actio\src\Actio.Common\obj\Debug\netstandard2.0\Actio.Common.pdb
+C:\Users\ham.heidari\Downloads\11_MicroService\11_MicroService\Actio\src\Actio.Common\bin\Debug\netstandard2.0\Actio.Common.deps.json
+C:\Users\ham.heidari\Downloads\11_MicroService\11_MicroService\Actio\src\Actio.Common\bin\Debug\netstandard2.0\Actio.Common.dll
+C:\Users\ham.heidari\Downloads\11_MicroService\11_MicroService\Actio\src\Actio.Common\bin\Debug\netstandard2.0\Actio.Common.pdb
+C:\Users\ham.heidari\Downloads\11_MicroService\11_MicroService\Actio\src\Actio.Common\obj\Debug\netstandard2.0\Actio.Common.csproj.AssemblyReference.cache

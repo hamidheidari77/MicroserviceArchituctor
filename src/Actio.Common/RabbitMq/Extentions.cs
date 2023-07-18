@@ -1,11 +1,11 @@
-﻿using Actio.Common.Commands;
+﻿using System.Threading.Tasks;
+using Actio.Common.Commands;
 using Actio.Common.Events;
+using Microsoft.Extensions.Configuration;
+using Microsoft.Extensions.DependencyInjection;
 using RawRabbit;
+using RawRabbit.Instantiation;
 using RawRabbit.Pipe;
-using System;
-using System.Collections.Generic;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Actio.Common.RabbitMq
 {
@@ -27,6 +27,17 @@ namespace Actio.Common.RabbitMq
             ));
 
         private static string GetQueueName<T>() => $"{System.Reflection.Assembly.GetEntryAssembly().GetName()}/{typeof(T).Name}";
+        public static void AddRabbitMq(this IServiceCollection services, IConfiguration configuration)
+        {
+            var options = new RabbitMqOptions();
+            var section = configuration.GetSection("rabbitmq");
+            section.Bind(options);
+            var client = RawRabbitFactory.CreateSingleton(new RawRabbitOptions
+            {
+                ClientConfiguration = options
+            });
+            services.AddSingleton<IBusClient>(_ => client);
+        }
 
     }
 }
