@@ -2,6 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Actio.Api.Handlers;
 using Actio.Common.Events;
 using Actio.Common.RabbitMq;
 using Microsoft.AspNetCore.Builder;
@@ -29,7 +30,7 @@ namespace Actio.Api
         {
             services.AddControllers();
             services.AddRabbitMq(Configuration);
-           // services.AddScoped<IEventHandler<ActivityCreated>,Activity>
+            services.AddScoped<IEventHandler<ActivityCreated>, ActivityCreateHandler>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

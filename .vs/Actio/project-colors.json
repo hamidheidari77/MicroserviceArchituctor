@@ -15,7 +15,17 @@
       "ProjectGuid": "687bf8a9-c0b6-4222-b961-2b9dbf232f14",
       "DisplayName": "Actio.Api",
       "ColorIndex": 1
+    },
+    "61c355b1-7bf1-4d84-a357-2b374c8a59ea": {
+      "ProjectGuid": "61c355b1-7bf1-4d84-a357-2b374c8a59ea",
+      "DisplayName": "Actio.Services.Activities",
+      "ColorIndex": 2
+    },
+    "1f5a519f-f156-4c35-a133-007ecc5d261e": {
+      "ProjectGuid": "1f5a519f-f156-4c35-a133-007ecc5d261e",
+      "DisplayName": "Actio.Services.Identity",
+      "ColorIndex": 3
     }
   },
-  "NextColorIndex": 2
+  "NextColorIndex": 4
 }
